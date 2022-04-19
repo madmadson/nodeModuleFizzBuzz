@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import FizzBuzz from "./fizzBuzz.mjs";
-const UtilService = require("./util.cjs");
+import UtilService from './util.mjs'
 
 const unrealArgs = UtilService.parse(process.argv.slice(2));
 
