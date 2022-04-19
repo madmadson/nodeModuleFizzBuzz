@@ -1,0 +1,20 @@
+{
+  "name": "nodi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lala.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.5.1",
+    "lodash": "^4.17.21"
+  },
+  "type": "module",
+  "moduleDirectories": [
+    "node_modules",
+    "src"
+  ]
+}
